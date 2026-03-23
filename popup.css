@@ -1,0 +1,55 @@
+/* popup.css */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    padding: 16px;
+    width: 320px;
+    background: #fdf9f2;
+}
+
+h2 {
+    color: #5d4037;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.setting {
+    margin: 12px 0;
+}
+
+.setting label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    color: #3e2723;
+}
+
+input[type="color"], input[type="range"], select, input[type="password"] {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #d7ccc8;
+    border-radius: 4px;
+    background: white;
+}
+
+button {
+    background: #8D6E63;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background: #6D4C41;
+}
+
+a {
+    color: #5D4037;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
